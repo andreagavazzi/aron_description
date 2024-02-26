@@ -31,7 +31,6 @@
     </visual>
   </link>
 
-
   <link name="$(arg robot_name)/neck_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0.0228 -0.2365"/>
@@ -42,7 +41,6 @@
     </visual>
   </link>
 
-
   <joint name="pan" type="revolute">
     <axis xyz="0 0 1"/>
     <limit effort="3" lower="${radians(-90)}" upper="${radians(90)}" velocity="${pi}"/>
@@ -50,7 +48,6 @@
     <parent link="$(arg robot_name)/base_link"/>
     <child link="$(arg robot_name)/neck_link"/>
   </joint>
-
 
   <link name="$(arg robot_name)/tilt_link">
     <visual>
@@ -61,7 +58,6 @@
       <material name="black"/>
     </visual>
   </link>
-
 
   <joint name="tilt" type="revolute">
     <axis xyz="1 0 0"/>
