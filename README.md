@@ -19,14 +19,11 @@ This is the bare minimum needed to get up and running. Take a look at the table 
 
 | Argument | Description | Default Value |
 | -------- | ----------- | :-----------: |
-| robot_model | model type of the Interbotix Turret such as 'wxxms' or 'vxxmd' | "" |
-| robot_name | name of the robot (typically equal to `robot_model`, but could be anything) | "$(arg robot_model)" |
+| robot_name | name of the robot (typically equal to `aron`, but could be anything) | 'aron' |
 | base_link_frame | name of the 'root' link on the turret; typically 'base_link', but can be changed if attaching the turret to a mobile base that already has a 'base_link' frame| 'base_link' |
 | use_world_frame | set this to true if you would like to load a 'world' frame to the 'robot_description' parameter which is located exactly at the 'base_link' frame of the robot; if using multiple robots or if you would like to attach the 'base_link' frame of the robot to a different frame, set this to false | true |  
-| external_urdf_loc | the file path to the custom urdf.xacro file that you would like to include in the Interbotix robot's urdf.xacro file| "" |
-| load_gazebo_configs | set this to true if Gazebo is being used; it makes sure to include Gazebo related configs in the 'robot_description' parameter so that the robot models show up black in Gazebo | false |
 | use_joint_pub | launches the joint_state_publisher node | false |
 | use_joint_pub_gui | launches the joint_state_publisher GUI | false |
 | use_rviz | launches Rviz | true |
-| rvizconfig | file path to the config file Rviz should load | refer to [xsturret_description.launch](launch/xsturret_description.launch) |
-| model | file path to the robot-specific URDF including arguments to be passed in | refer to [xsturret_description.launch](launch/xsturret_description.launch) |
+| rvizconfig | file path to the config file Rviz should load | 'rviz/aron_description.rviz' |
+| model | file path to the robot-specific URDF including arguments to be passed in | 'urdf/aron.urdf.xacro' |
