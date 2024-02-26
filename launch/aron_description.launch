@@ -1,6 +1,6 @@
 <launch>
 
-   <arg name="robot_name"                       default="aron"/>
+  <arg name="robot_name"                        default="aron"/>
   <arg name="base_link_frame"                   default="base_link"/>
   <arg name="use_world_frame"                   default="true"/>
   <arg name="external_urdf_loc"                 default=""/>
@@ -13,8 +13,6 @@
                                                          robot_name:=$(arg robot_name)
                                                          base_link_frame:=$(arg base_link_frame)
                                                          use_world_frame:=$(arg use_world_frame)
-                                                         external_urdf_loc:=$(arg external_urdf_loc)
-                                                         load_gazebo_configs:=$(arg load_gazebo_configs)"/>
 
   <param name="$(arg robot_name)/robot_description" command="$(find xacro)/xacro $(arg model)" />
 
