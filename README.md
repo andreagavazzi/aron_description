@@ -27,3 +27,7 @@ This is the bare minimum needed to get up and running. Take a look at the table 
 | use_rviz | launches Rviz | true |
 | rvizconfig | file path to the config file Rviz should load | 'rviz/aron_description.rviz' |
 | model | file path to the robot-specific URDF including arguments to be passed in | 'urdf/aron.urdf.xacro' |
+
+## 3D Interactive view
+
+[![3D Interactive Model](https://github.com/andreagavazzi/aron_robot/blob/main/pics/shapr3d.png)](https://collaborate.shapr3d.com/v/N6kiM8O_q4no-M4yc836B){:target="_blank"} 
