@@ -14,7 +14,7 @@
                                                          base_link_frame:=$(arg base_link_frame)
                                                          use_world_frame:=$(arg use_world_frame)
 
-  <param name="$(arg robot_name)/robot_description" command="$(find xacro)/xacro $(arg name)" />
+  <param name="$(arg robot_name)/robot_description" command="$(find xacro)/xacro $(arg model)" />
 
   <node if="$(arg use_joint_pub)"
     name="joint_state_publisher"
