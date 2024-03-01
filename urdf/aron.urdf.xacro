@@ -31,7 +31,7 @@
     </visual>
   </link>
 
-  <link name="$(arg robot_name)/neck_link">
+  <link name="$(arg robot_name)/pan_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0.0228 -0.2365"/>
       <geometry>
@@ -46,7 +46,7 @@
     <limit effort="3" lower="${radians(-90)}" upper="${radians(90)}" velocity="${pi}"/>
     <origin rpy="0 0 0" xyz="0 -0.0228 0.2365"/>
     <parent link="$(arg robot_name)/base_link"/>
-    <child link="$(arg robot_name)/neck_link"/>
+    <child link="$(arg robot_name)/pan_link"/>
   </joint>
   
   <transmission name="trans_pan">
@@ -73,7 +73,7 @@
     <axis xyz="1 0 0"/>
     <limit effort="3" lower="${radians(-12)}" upper="${radians(47)}" velocity="${pi}"/>
     <origin rpy="0 0 0" xyz="0 0 0.0392"/>
-    <parent link="$(arg robot_name)/neck_link"/>
+    <parent link="$(arg robot_name)/pan_link"/>
     <child link="$(arg robot_name)/tilt_link"/>
   </joint>
   
