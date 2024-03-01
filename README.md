@@ -16,7 +16,7 @@ This package contains the [aron_description.launch](launch/aron_description.laun
 ## Usage
 To run this package, type the line below in a terminal:
 ```
-$ roslaunch aron_description aron_description.launch use_joint_pub_gui:=true
+roslaunch aron_description aron_description.launch use_joint_pub_gui:=true
 ```
 This is the bare minimum needed to get up and running. Take a look at the table below to see how to further customize with other launch file arguments.
 
