@@ -2,7 +2,6 @@
 
 ## Overview
 This package contains the URDFs and meshes for Aron. The STL files are located in the [meshes](meshes/) directory. Next, the URDFs for the robot are located in the [urdf](urdf/) directory.  
-
 All the other ROS packages in the reference this package to launch the robot model.
 
 ## Structure
