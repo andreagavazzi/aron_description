@@ -5,7 +5,7 @@ This package contains the URDFs and meshes for Aron. The STL files are located i
 
 ## Structure
 
-<img align="right" src="https://github.com/andreagavazzi/aron_description/blob/main/aron_description.png"/>
+<img align="right" src="https://github.com/andreagavazzi/aron_description/blob/main/aron_descriptionaron.svg"/>
 
 This package contains the [aron_description.launch](launch/aron_description.launch) file responsible for loading the robot model. It launches up to four nodes as described below:
 - **robot_state_publisher** - uses the URDF specified by the parameter robot_description and the joint positions from the joint_states topic to calculate the forward kinematics of the robot and publish the results via tf.
