@@ -31,6 +31,10 @@
     </visual>
   </link>
 
+  <!--************************-->
+  <!--     HEAD  PAN          -->
+  <!--************************-->
+
   <link name="$(arg robot_name)/pan_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0.0228 -0.2365"/>
@@ -58,6 +62,10 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
+
+  <!--************************-->
+  <!--      HEAD TILT         -->
+  <!--************************-->
 
   <link name="$(arg robot_name)/tilt_link">
     <visual>
