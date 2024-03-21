@@ -26,8 +26,8 @@ This is the bare minimum needed to get up and running. Take a look at the table 
 | Argument | Description | Default Value |
 | -------- | ----------- | :-----------: |
 | robot_name | name of the robot (typically equal to `aron`, but could be anything) | 'aron' |
-| base_link_frame | name of the 'root' link; typically 'base_link', but can be changed if attaching aron to a mobile base that already has a 'base_link' frame| 'base_link' |
-| use_world_frame | set this to true if you would like to load a 'world' frame to the 'robot_description' parameter which is located exactly at the 'base_link' frame of the robot; if using multiple robots or if you would like to attach the 'base_link' frame of the robot to a different frame, set this to false | true |  
+| base_link_frame | name of the `root` link; typically `base_link`, but can be changed if attaching aron to a mobile base that already has a `base_link` frame| 'base_link' |
+| use_world_frame | set this to true if you would like to load a `world` frame to the `robot_description` parameter which is located exactly at the `base_link` frame of the robot; if using multiple robots or if you would like to attach the `base_link` frame of the robot to a different frame, set this to false | true |  
 | use_joint_pub | launches the joint_state_publisher node | false |
 | use_joint_pub_gui | launches the joint_state_publisher GUI | false |
 | use_rviz | launches Rviz | true |
