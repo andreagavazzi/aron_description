@@ -37,4 +37,4 @@ This is the bare minimum needed to get up and running. Take a look at the table 
 ## 3D Interactive view
 This is the Aron model, click on the view to interact.  
 
-[![3D Interactive Model](https://github.com/andreagavazzi/aron_robot/blob/main/pics/Aron3d.png)](https://collaborate.shapr3d.com/v/N6kiM8O_q4no-M4yc836B)
+[![3D Interactive Model](https://github.com/andreagavazzi/aron_robot/blob/main/pics/Aron3d_full.png)](https://collaborate.shapr3d.com/v/N6kiM8O_q4no-M4yc836B)
